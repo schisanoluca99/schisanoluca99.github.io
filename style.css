@@ -26,7 +26,7 @@ header .general-information {
   align-items: flex-start;
 }
 
-img .personal-foto {
+img {
   height: 280px;
   width: 280px;
   border-radius: 30%;
@@ -47,7 +47,7 @@ footer {
   gap: 18px;
 }
 
-img .icons {
+.icons {
   width: 60px;
   height: 60px;
 }
@@ -70,12 +70,12 @@ img .icons {
     margin-left: 0px;
   }
 
-  img .personal-foto {
+  .personal-foto {
     height: 180px;
     width: 180px;
   }
 
-  img .icons {
+  .icons {
     width: 40px;
     height: 40px;
   }
