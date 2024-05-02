@@ -110,3 +110,12 @@ h1 {
   color: #9ca3af;
   font-size: "Jersey 25", sans-serif;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: aquamarine;
+}
