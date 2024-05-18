@@ -5,6 +5,10 @@ body {
   padding: 48px 64px;
 }
 
+html {
+  font-size: 16px;
+}
+
 .container {
   max-width: 1500px;
   margin: 0 auto;
@@ -15,6 +19,10 @@ body {
   align-items: center;
 
   /* background-color: red; */
+}
+
+section {
+  margin-top: 2.5rem;
 }
 
 header .general-information {
@@ -88,12 +96,13 @@ ul {
 
 .date {
   float: right;
-  list-style: none;
 }
 
 li {
   list-style: none;
   line-height: 2;
+
+  clear: both;
 }
 
 .white-bullet {
