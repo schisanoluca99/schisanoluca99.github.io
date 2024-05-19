@@ -1,11 +1,11 @@
 /* MAIN LAYOUT */
 body {
-  /* background-color: #1f2937; */
-  background-image: linear-gradient(
+  background-color: #1f2937;
+  /* background-image: linear-gradient(
     to right bottom,
     rgba(242, 152, 49, 0.8),
     rgba(243, 55, 55, 0.8)
-  );
+  ); */
   color: #e5e7eb;
   padding: 48px 64px;
 }
