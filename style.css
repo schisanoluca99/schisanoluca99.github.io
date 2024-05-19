@@ -125,7 +125,7 @@ a {
   color: inherit;
 }
 
-a:hover {
+.white-bullet > a:hover {
   color: aquamarine;
 }
 
