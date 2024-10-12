@@ -49,11 +49,15 @@ h2 {
   margin-bottom: 10px;
   font-size: "Jersey 25", sans-serif;
 
-  color: #d2d3d5;
+  color: #fbf8f9;
+}
+
+h3 {
+  display: inline;
 }
 
 footer {
-  margin-top: 20px;
+  margin-top: 3rem;
 
   display: flex;
   align-items: center;
@@ -130,20 +134,41 @@ a {
   color: inherit;
 }
 
-.white-bullet > a:hover {
+/* .white-bullet > a:hover {
   color: aquamarine;
+} */
+
+.certificates,
+.activities {
+  transition: all 0.2s;
 }
 
-.certificates {
-  transition: all 0.2s;
+.certificates a {
+  display: block;
 }
 
 .certificates > li:hover {
   transform: translateY(-3px);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  color: aquamarine;
 }
 
 .certificates > li:active {
   transform: translateY(-1px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.Lingue__list > li {
+  margin-bottom: 1rem;
+}
+
+.working-experience > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.legal {
+  margin-top: 3rem;
+  font-size: 0.6rem;
+  text-align: center;
 }
